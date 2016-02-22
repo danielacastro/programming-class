@@ -1,0 +1,21 @@
+/*CSS*/
+
+body {
+    background:purple;
+    font-family: arial;
+    color:white;
+}
+
+h1 {
+	color:white;
+
+}
+
+p {
+   color:orange;
+   
+}
+
+hr {
+	border-color: black;
+}
