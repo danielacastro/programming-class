@@ -8,11 +8,16 @@ body {
 
 h1 {
 	color:white;
+	font-family: sans-serif;
+	font-size:50px;
+	text-align:center;
 
 }
 
 p {
    color:orange;
+   font-family: sans-serif;
+   font-size:20px;
    
 }
 
