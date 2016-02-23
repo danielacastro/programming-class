@@ -1,4 +1,7 @@
-/*CSS*/
+/*
+Website: My Programming Site v.1
+Author:DANIELA CASTRO
+ */
 
 body {
     background:purple;
@@ -19,6 +22,8 @@ h1:hover{
 
 }
 
+/* text style */
+
 p {
    color:orange;
    font-family: sans-serif;
@@ -35,6 +40,8 @@ p:first-letter{
 hr {
 	border-color: black;
 }
+
+/* container style */
 
 #content{
 	width:600px;
