@@ -22,3 +22,19 @@ p {
 li {
 	font-size:25px;
 }
+
+div.text{
+    text-align:left;
+    margin:10px;
+    padding-bottom:75px;
+}
+
+div.image{
+	float:right;
+	margin:5px;
+	clear:right;
+	display:inline;
+	padding:5px;
+
+
+}
