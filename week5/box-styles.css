@@ -1,0 +1,53 @@
+#boxes {
+    height:200vh;
+    background: #ccc;
+    width:80%;
+
+}
+
+.box{
+     width:200px;
+     height:200px;
+     border:1px solid #000;
+     margin-bottom:20px;
+     margin-right: 20px;
+     float:left;
+
+}
+h1 {
+    position: absolute;
+    top:50%;
+    text-align: center;
+    width: 100%;
+    color:#fff;
+}
+#green{
+    background:green;
+    z-index: 101;
+}
+
+#blue{
+    background:blue;
+    position: fixed;
+    z-index: 
+}
+
+#red{
+    background:red;
+    float:left;
+    position:relative;
+    top: 100px;
+    left:20px;
+}
+
+element.style {
+    position: left;
+    left:20px;
+    top: 0;
+    height: 100px;
+}
+
+#tree {
+    width: 100%;
+    margin: ;
+}
