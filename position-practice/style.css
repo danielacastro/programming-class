@@ -1,0 +1,76 @@
+h1 {
+    position:center;
+    top:50%;
+    text-align: center;
+    width: 100%;
+    color:black;
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.box{
+     width:200px;
+     height:200px;
+     border:2px solid #000;
+     margin-bottom:20px;
+     margin-right: 20px;
+     float:left;
+     position:relative;
+}
+
+#lightblue {
+    background: #00FFFF;
+    float:left;
+    position:relative;
+}
+
+#circle {
+    border-bottom: 10px solid:;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    background: black;
+    /* width and height can be anything, as long as they're equal */
+    position:absolute;
+    left: 350px;
+    top:250px;
+}
+
+#blue{
+    background:blue;
+    position:relative;
+    margin-right:10px;
+    width:200px;
+}
+
+
+#red{
+    background:red;
+    position:relative; 
+
+}
+
+#green{
+    background:green;
+    position: relative;
+    margin-left: -438px;
+    margin-top: 218px;
+
+   
+}
+
+#yellow {
+    background: yellow;
+    margin-left: -224px;
+    margin-top: 218px;
+
+    
+}
+
+#left {
+    width:320px;
+    float:left;
+    margin-right:20px;
+
+}
+
