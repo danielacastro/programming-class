@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Method Presentation - toggle</title>
+  <style>
+  /*YOUR CSS HERE*/
+  h1{ font-family:monospace;
+   }
+  </style>
+</head>
+
+<body>
+
+  <h1 style="font-size:40px">toggle</h1>
+  <h1 style="display:none;" style="color:red;">Toggle 2 </h1> 
+  <button>Toggle between hide and show</button>
+
+  <!--YOUR HTML HERE-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("button").click(function(){
+    $("h1").toggle("slow");
+    //$("h2").toggle(5000);
+
+});
+    //YOUR CODE HERE
+});
+
+  </script>
+
+</body>
+
+</html>

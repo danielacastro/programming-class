@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Week 8 - Intro to Frameworks</title>
+</head>
+<body>
+  <h1 id="headline">jQuery Practice</h1>
+  <ul id="list"></ul>
+  <script src="js/jquery-2.2.2.min.js"> </script>
+  <script>
+  $(document).ready(function(){
+     console.log("ready fo jQuery");
+     var colors = ["red","blue","yellow","black","green"];
+
+   $.each(colors,function(index,color){
+      console.log(index);
+      console.log(color);
+   $("#list").append("<li>" + color + "</li>");
+
+   }); // close each
+
+//CSS method 
+$("#headline").css("color","DarkCyan");
+
+//HTML method practice
+$("#headline").html("My <em>Favorite</em> Colors "); 
+  var headline = $("#headline").html();
+  console.log(headline);
+
+//chaining practice
+$("h1").css("font-size", "20px").html("Chaining Practice").fadeOut(5000).fadeIn(1000);
+  }); //close ready
+  	
+  </script>
+</body>
+</html>

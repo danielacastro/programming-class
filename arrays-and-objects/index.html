@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Week 7 - Arrays, Objects and Loops</title>
+</head>
+<body>
+  <h1 id="headline">Storing Data in JavaScript</h1>
+  <ul id="list"></ul>
+
+  <script> 
+    var books = ["The Thorn Birds","Night of the Gun","The Lord of the Rings Trilogy","The Shok Doctine","Eleanor and Park"];
+    console.log(books),
+    console.log(books[2]);
+
+    for (var i=0 ; i < books.length ; i++) {
+    	//alert(books[i]);
+
+    };
+
+    var book = {
+    	title: "The Thorn Birds",
+    	author: "Colleen McCullough",
+    	pubYear:"1977"
+
+    };
+
+    console.log(book);
+    console.log(book.author);
+
+    var favoriteBooks = [
+    {
+    	title: "The Thorn Birds",
+    	author: "Colleen McCullough",
+    	genre: ["fiction","romance"]
+    },
+
+    {
+    	title: "The Price of Inequality",
+        author: "Joseph Stiglitz",
+        genre: ["nonfiction","economics","politics"]
+    },
+    {
+    	title: "The Night of the Gun",
+        author: "David Carr",
+        genre: ["autobiography","nonfiction","memoir"]
+    }
+
+    ];
+
+    console.log(favoriteBooks);
+
+
+    for (var i = 0 ; i < favoriteBooks.length; i++) {
+    	console.log(favoriteBooks[i]);
+    	//alert(favoriteBooks[i].title);
+    	var listItem = document.createElement("li");
+    	var title = document.createTextNode(favoriteBooks[i].title);
+    	listItem.appendChild(title);
+    	document.getElementById("list").appendChild(listItem);
+    }
+
+    document.getElementById("headline").innerHTML = "My Favorite Books";
+        
+        //revisar porque no está funcionando el loop
+    for (var i = 0 ; i < favoriteBooks.length; i++) {
+        
+        var author = document.createElement("p");
+    	document.createTextNode(favoriteBooks[i].author);
+        listItem.appendChild(author);
+        document.getElementById("p").appendChild();
+
+  </script>
+</body>
+</html>
